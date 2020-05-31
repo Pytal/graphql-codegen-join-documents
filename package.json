@@ -1,0 +1,12 @@
+{
+  "name": "graphql-codegen-join-documents",
+  "version": "0.1.0",
+  "main": "join-documents.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "graphql": "^15.0.0"
+  }
+}
