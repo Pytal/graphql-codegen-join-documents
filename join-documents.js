@@ -1,6 +1,6 @@
-import { print } from 'graphql'
+const { print } = require('graphql')
 
-export default {
+module.exports = {
   plugin: (schema, documents, config, info) => (
     documents.map(({ document }) => print(document)).join('\n')
   )
