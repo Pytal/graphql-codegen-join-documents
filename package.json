@@ -4,5 +4,6 @@
   "main": "src/mod.js",
   "peerDependencies": {
     "graphql": "^15.0.0"
-  }
+  },
+  "repository": "github:Pytal/graphql-codegen-join-documents"
 }
