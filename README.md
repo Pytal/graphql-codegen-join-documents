@@ -1,5 +1,5 @@
 # graphql-codegen-join-documents
-A plugin for [GraphQL Code Generator](https://graphql-code-generator.com/docs/getting-started/index) to join GraphQL queries/mutations/subscriptions together into a single file
+A plugin for [GraphQL Code Generator](https://graphql-code-generator.com/docs/getting-started/index) to join GraphQL queries/mutations/subscriptions together into a single file, useful for allowing only a subset of queries to be executed with the [Allow-list](https://hasura.io/docs/1.0/graphql/manual/deployment/allow-list.html) feature of [Hasura GraphQL-Engine](https://github.com/hasura/graphql-engine)
 
 ## Installation
 ``` bash
