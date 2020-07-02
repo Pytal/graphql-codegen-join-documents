@@ -1,12 +1,12 @@
 # graphql-codegen-join-documents
 A plugin for [GraphQL Code Generator](https://graphql-code-generator.com/docs/getting-started/index) to join GraphQL queries/mutations/subscriptions together into a single file.
 
-## Usage
-Install the plugin:
+## Installation
 ``` bash
 npm add -D graphql-codegen-join-documents
 ```
 
+## Usage
 Enter the following into `codegen.yaml`:
 ``` yaml
 schema: schema.graphql
